@@ -9,7 +9,7 @@
 	<link rel='stylesheet' href='<c:url value="/resources/css/style.css" />' type='text/css' media='all' /> 
 </head>
 <body>
-		Name: <c:out value='${user.username}'/>
+	Name: <c:out value='${user.username}'/>
 	<br>Password : <c:out value='${user.passwords }'/>
 	<br>City : <c:out value='${user.city}'/>
 	<br>JobType : <c:out value='${user.jobType}'/>
@@ -17,4 +17,4 @@
 	<br>Color : <c:out value='${user.color}'/>
 	<br>About : <c:out value='${user.abt}'/>
 </body>
-</html>
+</html>            

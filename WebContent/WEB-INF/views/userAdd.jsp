@@ -11,14 +11,14 @@
 <body>
 	<form:form action='saveUser' method='post' modelAttribute="user">
 	Name : <form:input path="username" />
-	<br>Password : <form:password path="passwords"/>	
+	<br>	Password : <form:password path="passwords"/>	
 	<br>City : <form:select path="city">
 	<br><form:option value="0" label="select"></form:option>
 	<form:options items='${cityList}'/>
 	</form:select>
 	<br>JobType : <form:radiobuttons path="jobType" items='${jobTypeList}'/>
 	
-	<br>Department : <form:checkboxes items='${dList}'	path="dept" itemLabel="departmentDesc" itemValue="departmentMasterId"/>
+	<br>   Department : <form:checkboxes items='${dList}'	path="dept" itemLabel="departmentDesc" itemValue="departmentMasterId"/>
 
 		<br>Colors : <form:checkboxes items='${colorList}' path="color"/>
 	<br>About : <form:textarea path="abt"/>
