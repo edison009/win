@@ -18,7 +18,7 @@
 <td> Employee Address</td>
 <td> Gender	</td> 
 <td> State</td>
-<td> Degree</td>
+<td> Degree</td>     
 <td> Department</td>
 <td> Designation</td>
 <td> Salary</td> 
